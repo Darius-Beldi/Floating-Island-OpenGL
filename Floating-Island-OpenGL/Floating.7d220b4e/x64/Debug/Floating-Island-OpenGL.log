@@ -1,0 +1,24 @@
+﻿  D:freeglut.dll
+  D:glew32.dll
+  D:glew32s.dll
+  3 File(s) copied
+  D:glfw3.dll
+  D:glfw3dll.dll
+  D:glfw3_mt.dll
+  3 File(s) copied
+  D:SOIL.dll
+  1 File(s) copied
+  glm.cpp
+  main.cpp
+  imageloader.cpp
+  loadShaders.cpp
+  Generating Code...
+  glad.c
+  Floating-Island-OpenGL.vcxproj -> D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\x64\Debug\Floating-Island-OpenGL.exe
+  D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\lib\x64\GL\DLLs\freeglut.dll
+  D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\lib\x64\GL\DLLs\glew32.dll
+  2 File(s) copied
+  D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\lib\x64\GLFW\DLLs\glfw3.dll
+  1 File(s) copied
+  D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\lib\x64\SOIL\SOIL.dll
+  1 File(s) copied
