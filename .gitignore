@@ -1,0 +1,9 @@
+﻿Floating-Island-OpenGL/.vs/
+Floating-Island-OpenGL/x64/
+Floating-Island-OpenGL/Debug/
+Floating-Island-OpenGL/Release/
+*.db
+*.ipch
+*.obj
+*.exe
+*.pdb
