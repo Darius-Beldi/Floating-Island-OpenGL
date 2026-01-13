@@ -9,13 +9,13 @@
   D:SOIL.dll
   1 File(s) copied
   main.cpp
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(42,10): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(64,12): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(64,31): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(88,11): warning C4305: '-=': truncation from 'double' to 'float'
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(91,11): warning C4305: '+=': truncation from 'double' to 'float'
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(191,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(243,45): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(23,10): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(43,58): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(43,77): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(85,17): warning C4305: '-=': truncation from 'double' to 'float'
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(88,17): warning C4305: '+=': truncation from 'double' to 'float'
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(194,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\main.cpp(266,48): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   Floating-Island-OpenGL.vcxproj -> D:\Facultate 2\An3Sem1\Floating-Island-OpenGL\Floating-Island-OpenGL\x64\Debug\Floating-Island-OpenGL.exe
   0 File(s) copied
   0 File(s) copied
