@@ -1,25 +1,25 @@
 # Floating-Island-OpenGL
 
-## Conceptul Proiectului
-Un proiect care consta intr-o scena 3D ce reprezinta o 3 insule plutitoare (2 mici si una mai mare).
-Pe insula principala se afla o casa, un copac mare si 2 lampi de iluminat.
-Pe insulele mici se afla copaci si o cruce mare. 
-Scopul nostru era sa creem o scena horror, de aceea avem si putina lumina. 
+## Project Concept
+A project consisting of a 3D scene representing 3 floating islands (2 small ones and one larger).
+On the main island there is a house, a large tree, and 2 streetlamps.
+On the small islands there are trees and a large cross.
+Our goal was to create a horror scene, which is why we have limited lighting.
 
-## Elementele incluse
+### Rendered scene
+https://github.com/user-attachments/assets/e3dbf8d0-bbdc-41f9-8977-23ab635f5a2d
 
-Scena este realizata in Blender, apoi exportata in .obj. Iluminarea este facuta complet in OpenGL.
+## Included Elements
+The scene is created in Blender, then exported to .obj format. The lighting is implemented entirely in OpenGL.
 
-## De ce este original? 
+## Why is it original?
+We tried to create an atmosphere that is as spooky as possible, and we believe we succeeded.
+Additionally, we extended the *objloader* class with the *loadmtl* function:
 
-Am incercat sa creem o atmosfera cat mai spooky, si credem ca ne-a iesit.
-
-De asemenea am extins clasa *objloader*  cu functia *loadmtl* 
-```
+```cpp
 bool loadMTL(const std::string& path, std::map<std::string, Material>& materials) {
     FILE* file = fopen(path.c_str(), "r");
     if (!file) return false;
-
     char lineHeader[128];
     Material mat;
     std::string currentMat;
@@ -49,11 +49,13 @@ bool loadMTL(const std::string& path, std::map<std::string, Material>& materials
     return true;
 }
 ```
-Aceasta permite programului sa implementeze si fisierele *.mtl din Blender.
+
+This allows the program to implement the *.mtl files from Blender as well.
+
+## Individual Contributions
+We both worked on this project equally.
+Darius handled the 3D scene, while Ovidiu handled the lighting.
 
 
-## Contributii individuale 
-
-Am lucrat amandoi la acest proiect in egala masura. 
-Darius s-a ocupat de scena 3D, iar Ovidiu s-a ocupat de iluminare.
-
+## Pciture of the render
+<img width="1032" height="772" alt="image" src="https://github.com/user-attachments/assets/598c5133-79a3-4a4b-840d-9f1347741e9e" />
